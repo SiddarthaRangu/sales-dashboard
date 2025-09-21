@@ -1,0 +1,19 @@
+/* Custom styles for react-datepicker to better match Material-UI's look and feel */
+.react-datepicker-wrapper input {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    width: 140px;
+    transition: border-color 0.2s;
+}
+
+.react-datepicker-wrapper input:hover {
+    border-color: #000;
+}
+
+.react-datepicker-wrapper input:focus {
+    outline: 2px solid #1976d2; /* MUI primary color focus ring */
+    border-color: #1976d2;
+}
